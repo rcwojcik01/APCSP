@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Node Chat</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="content">
+        <h1>Chat and Draw</h1>
+        
+        <div id="user">
+            <span>My name is: </span>
+            <input id="user-name">
+            <button id="user-save">Save</button>
+        </div>
+        <br>
+        
+        <div id="log">
+            <div class="message"><span id="message-title">Message log:</span></div>
+        </div>
+        
+        <br>
+        <div id="controls">
+            <input id="message" disabled>
+            <br>
+            <button id="send" disabled>Send</button>
+        </div>
+        <br>
+        <div>
+            <button id="clear">Clear</button>
+        </div>
+        <br>
+        
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.js">
+    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.0.0.min.js"
+      integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="
+      crossorigin="anonymous">
+    </script>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

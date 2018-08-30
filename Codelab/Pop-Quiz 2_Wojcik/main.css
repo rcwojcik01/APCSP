@@ -1,0 +1,60 @@
+
+#stats {
+    width: 600px;
+    border: solid gray 1px;
+    padding: 20px;
+    margin: 10% auto auto auto;
+    background-color: white;
+}
+
+#title {
+    width: auto;
+    height: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: arial;
+    
+    
+    color: darkgray;
+}
+
+#medals {
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    
+}
+
+#gold {
+    background-color: gold;
+    
+}
+
+#silver {
+    background-color: silver;
+}
+
+#bronze {
+    background-color: lightcoral;
+}
+
+.badgeCount {
+    text-align: center;
+    width: 176px;
+    padding: 10px;
+    padding-top: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    font-family: arial;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.round {
+    border-radius: 5%;
+}

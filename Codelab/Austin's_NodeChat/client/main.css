@@ -1,0 +1,41 @@
+body {
+    font-family: "Arial", Arial, sans-serif;
+}
+
+#content {
+    margin: auto;
+    width: 75%;
+}
+
+#log {
+    border: solid dodgerblue 3px;
+    margin: auto;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+#controls {
+    display: none;
+}
+
+h1 {
+    color: dodgerblue;
+}
+
+#message-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+#clear {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

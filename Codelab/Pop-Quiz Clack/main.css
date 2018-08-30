@@ -1,0 +1,58 @@
+#box {
+    width: 600px;
+    border: solid gray 1px;
+    padding: 20px;
+    margin: 10% auto auto auto;
+    background-color: white;
+}
+
+.content {
+    padding: 3px;
+}
+
+body {
+    font-family: arial;
+}
+
+h1 {
+    color: blue;
+    font-weight:100;
+    font-size: 35px;
+    margin-bottom: 1px;
+}
+
+#company {
+    font-size: 30px;
+    color: black;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+#location {
+    font-size: 30px;
+    color: grey;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.red {
+    font-weight: bold;
+    color: coral;
+    font-size: 30px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.inline {
+    display: inline-block;
+    padding-top: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tag {
+    padding: 10px;
+    background-color: azure;
+    color: darkblue;
+    font-size: 30px;
+}

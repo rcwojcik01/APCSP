@@ -1,0 +1,54 @@
+
+body {
+    background-color:grey;
+}
+
+.left {
+    float:left;
+}
+
+#leftcolumn {
+    Height:250;
+    Width:250;
+    background-color:black;
+}
+
+#businesscard {
+    Height: 250px;
+    Width: 500px;
+    background-color:white;
+}
+
+#title {
+    Height: 45px;
+    Width: 500px;
+    font-family:Cursive;
+    font-size: 30px;
+    color: black;
+}
+
+#jobdescription {
+    Height: 205px;
+    Width: 250px;
+    background-color:white;
+        font-family:cursive;
+    font-size: 20px;
+}
+
+#jobtitle {
+    Height: 40px;
+    Width: 250px;
+}
+
+#company {
+    Height: 40px;
+    Width: 250px;
+}
+
+#description {
+    Height: 125px;
+    Width: 250px;
+    font-size:10px
+}
+
+.left

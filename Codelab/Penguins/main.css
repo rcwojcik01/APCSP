@@ -1,0 +1,112 @@
+
+body {
+    background-color: #ccf5f5;
+}
+
+#gameholder {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title {
+    width: 600px;
+    height: 150px;
+    background-image: url('penguin_pngs/penguin_title.png');
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div[class^="penguin"], .yeti{
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+div[class^="penguin"]:hover, .yeti:hover {
+    cursor: pointer;
+}
+
+.penguin1 { background-image: url('penguin_pngs/mound_1.png'); }
+.penguin2 { background-image: url('penguin_pngs/mound_2.png'); }
+.penguin3 { background-image: url('penguin_pngs/mound_3.png'); }
+.penguin4 { background-image: url('penguin_pngs/mound_4.png'); }
+.penguin5 { background-image: url('penguin_pngs/mound_5.png'); }
+.penguin6 { background-image: url('penguin_pngs/mound_6.png'); }
+.penguin7 { background-image: url('penguin_pngs/mound_7.png'); }
+.penguin8 { background-image: url('penguin_pngs/mound_8.png'); }
+.penguin9 { background-image: url('penguin_pngs/mound_1.png'); }
+.penguin10 { background-image: url('penguin_pngs/mound_2.png'); }
+.penguin11 { background-image: url('penguin_pngs/mound_3.png'); }
+.penguin12 { background-image: url('penguin_pngs/mound_4.png'); }
+.penguin13 { background-image: url('penguin_pngs/mound_5.png'); }
+.penguin14 { background-image: url('penguin_pngs/mound_6.png'); }
+.penguin15 { background-image: url('penguin_pngs/mound_7.png'); }
+.penguin16 { background-image: url('penguin_pngs/mound_8.png'); }
+.penguin17{ background-image: url('penguin_pngs/mound_1.png'); }
+.penguin18 { background-image: url('penguin_pngs/mound_2.png'); }
+.penguin19 { background-image: url('penguin_pngs/mound_3.png'); }
+.penguin20 { background-image: url('penguin_pngs/mound_4.png'); }
+.penguin21 { background-image: url('penguin_pngs/mound_5.png'); }
+.penguin22 { background-image: url('penguin_pngs/mound_6.png'); }
+
+.yeti { background-image: url('penguin_pngs/mound_9.png'); }
+.yeti { background-image: url('penguin_pngs/mound_9.png'); }
+.yeti { background-image: url('penguin_pngs/mound_9.png'); }
+
+.penguin1:hover { background-image: url('penguin_pngs/mound_1_hover.png'); }
+.penguin2:hover { background-image: url('penguin_pngs/mound_2_hover.png'); }
+.penguin3:hover { background-image: url('penguin_pngs/mound_3_hover.png'); }
+.penguin4:hover { background-image: url('penguin_pngs/mound_4_hover.png'); }
+.penguin5:hover { background-image: url('penguin_pngs/mound_5_hover.png'); }
+.penguin6:hover { background-image: url('penguin_pngs/mound_6_hover.png'); }
+.penguin7:hover { background-image: url('penguin_pngs/mound_7_hover.png'); }
+.penguin8:hover { background-image: url('penguin_pngs/mound_8_hover.png'); }
+.penguin9:hover { background-image: url('penguin_pngs/mound_1_hover.png'); }
+.penguin10:hover { background-image: url('penguin_pngs/mound_2_hover.png'); }
+.penguin11:hover { background-image: url('penguin_pngs/mound_3_hover.png'); }
+.penguin12:hover { background-image: url('penguin_pngs/mound_4_hover.png'); }
+.penguin13:hover { background-image: url('penguin_pngs/mound_5_hover.png'); }
+.penguin14:hover { background-image: url('penguin_pngs/mound_6_hover.png'); }
+.penguin15:hover { background-image: url('penguin_pngs/mound_7_hover.png'); }
+.penguin16:hover { background-image: url('penguin_pngs/mound_8_hover.png'); }
+.penguin17:hover { background-image: url('penguin_pngs/mound_1_hover.png'); }
+.penguin18:hover { background-image: url('penguin_pngs/mound_2_hover.png'); }
+.penguin19:hover { background-image: url('penguin_pngs/mound_3_hover.png'); }
+.penguin20:hover { background-image: url('penguin_pngs/mound_4_hover.png'); }
+.penguin21:hover { background-image: url('penguin_pngs/mound_5_hover.png'); }
+.penguin22:hover { background-image: url('penguin_pngs/mound_6_hover.png'); }
+
+.yeti :hover { background-image: url('penguin_pngs/mound_9_hover.png'); }
+.yeti :hover { background-image: url('penguin_pngs/mound_9_hover.png'); }
+.yeti :hover { background-image: url('penguin_pngs/mound_9_hover.png'); }
+
+.penguin1:active { background-image: url('penguin_pngs/penguin_1.png'); }
+.penguin2:active { background-image: url('penguin_pngs/penguin_2.png'); }
+.penguin3:active { background-image: url('penguin_pngs/penguin_3.png'); }
+.penguin4:active { background-image: url('penguin_pngs/penguin_4.png'); }
+.penguin5:active { background-image: url('penguin_pngs/penguin_5.png'); }
+.penguin6:active { background-image: url('penguin_pngs/penguin_6.png'); }
+.penguin7:active { background-image: url('penguin_pngs/penguin_7.png'); }
+.penguin8:active { background-image: url('penguin_pngs/penguin_8.png'); }
+.penguin9:active { background-image: url('penguin_pngs/penguin_1.png'); }
+.penguin10:active { background-image: url('penguin_pngs/penguin_2.png'); }
+.penguin11:active { background-image: url('penguin_pngs/penguin_3.png'); }
+.penguin12:active { background-image: url('penguin_pngs/penguin_4.png'); }
+.penguin13:active { background-image: url('penguin_pngs/penguin_5.png'); }
+.penguin14:active { background-image: url('penguin_pngs/penguin_6.png'); }
+.penguin15:active { background-image: url('penguin_pngs/penguin_7.png'); }
+.penguin16:active { background-image: url('penguin_pngs/penguin_8.png'); }
+.penguin17:active { background-image: url('penguin_pngs/penguin_1.png'); }
+.penguin18:active { background-image: url('penguin_pngs/penguin_2.png'); }
+.penguin19:active { background-image: url('penguin_pngs/penguin_3.png'); }
+.penguin20:active { background-image: url('penguin_pngs/penguin_4.png'); }
+.penguin21:active { background-image: url('penguin_pngs/penguin_5.png'); }
+.penguin22:active { background-image: url('penguin_pngs/penguin_6.png'); }
+
+.yeti:active { background-image: url('penguin_pngs/yeti.png'); }
+.yeti:active { background-image: url('penguin_pngs/yeti.png'); }
+.yeti:active { background-image: url('penguin_pngs/yeti.png'); }
+
+
+
